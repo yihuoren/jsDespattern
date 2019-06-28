@@ -25,9 +25,6 @@ class StudentBuilder{
         return this.student;
     }
 }
-// 原型模式减少开销
-
-
 let builder = new StudentBuilder();
 builder.setName('王虎虎');
 builder.setGender('男');
