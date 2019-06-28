@@ -1,4 +1,4 @@
-// 装饰器
+// 装饰器模式
 function testDec(isDec){
     return function(target){
         target.isDec = isDec;
